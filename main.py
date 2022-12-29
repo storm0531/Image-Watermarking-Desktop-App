@@ -6,7 +6,6 @@ import cv2
 import random
 
 def upload_file():
-    global image_a
     filename = filedialog.askopenfilename(title="select Image",filetypes=[
                     ("image", ".jpeg"),
                     ("image", ".png"),
